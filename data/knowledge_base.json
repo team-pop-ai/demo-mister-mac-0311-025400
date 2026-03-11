@@ -1,0 +1,55 @@
+{
+  "email_troubleshooting": {
+    "gmail_imap": {
+      "steps": [
+        "Check internet connection",
+        "Verify account settings in Mail app", 
+        "Toggle Mail sync on/off in account settings",
+        "Check Fetch New Data settings",
+        "Restart Mail app",
+        "If still failing, remove and re-add account"
+      ],
+      "common_causes": [
+        "Fetch set to Manual instead of Push",
+        "Account credentials outdated",
+        "iOS Mail app cache corrupted"
+      ]
+    },
+    "apple_mail": {
+      "server_settings": {
+        "imap_server": "imap.gmail.com",
+        "port": 993,
+        "security": "SSL"
+      }
+    }
+  },
+  "scam_identification": {
+    "popup_indicators": [
+      "Urgent language ('Act now!', 'Your account will be closed')",
+      "Requests for passwords or personal info",
+      "Poor spelling/grammar",
+      "Non-Apple URLs",
+      "Threats of immediate consequences"
+    ],
+    "safe_response": [
+      "Never enter credentials in popups",
+      "Close browser immediately", 
+      "Clear Safari data",
+      "Restart device if popup persists"
+    ]
+  },
+  "storage_management": {
+    "icloud_optimization": [
+      "Enable 'Optimize iPhone Storage' for Photos",
+      "Review and delete old device backups",
+      "Manage app data usage in iCloud settings",
+      "Consider iCloud storage upgrade if needed"
+    ],
+    "local_cleanup": [
+      "Delete unused apps",
+      "Clear browser cache",
+      "Remove downloaded music/videos",
+      "Empty Recently Deleted album"
+    ]
+  }
+}

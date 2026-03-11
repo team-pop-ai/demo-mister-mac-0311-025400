@@ -1,0 +1,20 @@
+{
+  "broken_email": {
+    "audio_transcript": "Hi, I'm having trouble with my email on my iPhone. I'm not getting any new emails since yesterday. I can send emails but nothing new is coming in. My Gmail works fine on my computer but not on my phone.",
+    "screen_analysis": "iPhone Settings app open, Mail section selected, Gmail account visible with sync indicators showing last sync over 24 hours ago",
+    "issue_type": "email_sync_failure",
+    "complexity": "low"
+  },
+  "scam_popup": {
+    "audio_transcript": "I was browsing the internet and this popup appeared saying my Apple ID has been compromised and I need to verify it immediately. It's asking for my password. Should I click on it? It looks official but I'm not sure.",
+    "screen_analysis": "Safari browser displaying fraudulent popup with fake Apple logo, urgent warning text, and password input field. URL shows suspicious domain not associated with Apple.",
+    "issue_type": "phishing_attempt",
+    "complexity": "high"
+  },
+  "internal_tools": {
+    "audio_transcript": "My phone keeps telling me my iCloud storage is full and I can't back up my photos anymore. I don't want to lose my pictures but I don't know how to manage the storage. Can you help me figure out what's taking up all the space?",
+    "screen_analysis": "iPhone Settings showing Apple ID section with iCloud storage meter at 100% full, Photos taking up 4.2GB of 5GB total storage, backup failed notification visible",
+    "issue_type": "storage_management", 
+    "complexity": "medium"
+  }
+}

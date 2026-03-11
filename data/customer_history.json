@@ -1,0 +1,35 @@
+{
+  "customers": [
+    {
+      "name": "Sarah Johnson",
+      "phone": "(512) 555-0123",
+      "device": "iPhone 12",
+      "ios_version": "17.2",
+      "previous_issues": [
+        "Screen replacement - Sept 2023",
+        "Battery replacement - Jan 2024"
+      ],
+      "notes": "Prefers step-by-step guidance, not very tech-savvy"
+    },
+    {
+      "name": "Robert Chen", 
+      "phone": "(512) 555-0456",
+      "device": "iPhone 13",
+      "ios_version": "17.1",
+      "previous_issues": [
+        "Water damage repair - Oct 2023"
+      ],
+      "notes": "Elderly customer, speaks slowly, needs patient explanation"
+    },
+    {
+      "name": "Maria Rodriguez",
+      "phone": "(512) 555-0789", 
+      "device": "iPhone 14",
+      "ios_version": "17.3",
+      "previous_issues": [
+        "Cracked screen repair - Dec 2023"
+      ],
+      "notes": "Takes lots of photos for work, heavy iCloud user"
+    }
+  ]
+}
